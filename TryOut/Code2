@@ -24,6 +24,4 @@
 		if (y==0)
 			System.out.println("In the center");
 
-	}
 
-}
