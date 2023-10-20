@@ -1,9 +1,4 @@
-package demo;
-import java.util.Scanner;
-public class Try {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner kb= new Scanner(System.in);
+	Scanner kb= new Scanner(System.in);
      int x, y, sum=0;
      System.out.println("Enter first number:");
      x = kb.nextInt();
@@ -13,6 +8,6 @@ public class Try {
      System.out.println(sum);
       
      
-	}
+	
 
-}
+
