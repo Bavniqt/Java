@@ -1,6 +1,6 @@
-package slabo;
+	package demo;
 import java.util.Scanner;
-public class Mi_nz {
+public class TryOut {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
