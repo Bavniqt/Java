@@ -1,10 +1,4 @@
-	package demo;
-import java.util.Scanner;
-public class TryOut {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner kb = new Scanner(System.in);
+    Scanner kb = new Scanner(System.in);
 		double x,y;
 		int k;
 		System.out.println(" Enter x:");
