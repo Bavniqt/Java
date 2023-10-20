@@ -1,0 +1,19 @@
+package slabo;
+import java.util.Scanner;
+public class Conversation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner kb= new Scanner(System.in);
+		String x;
+		String x1;
+		String x2;
+		System.out.println("Hello, what is your name?");
+		x=kb.nextLine(); //enter your name
+	System.out.println("Nice to meet you, "+ x+(".") + " How are you?");
+	x1=kb.nextLine(); // tell how you feel 
+	System.out.println("Happy to hear. I have to go now. See you");
+x2=kb.nextLine(); //say goodbye
+		System.out.println(":)");
+	}		
+	}
