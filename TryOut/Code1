@@ -1,6 +1,6 @@
-package slabo;
+package demo;
 import java.util.Scanner;
-public class U4ilishte {
+public class Try {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner kb= new Scanner(System.in);
