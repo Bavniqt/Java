@@ -1,4 +1,3 @@
-Scanner kb= new Scanner(System.in);
 int day=3;
 switch (day) {
 case 1:
