@@ -1,0 +1,49 @@
+package demo;
+import java.util.Scanner;
+public class Menu_switch {
+//оформяне на меню за избор на
+// основните аритметични операции
+public static void main(String[] args) {
+System.out.println("1.Add.");
+System.out.println("2.Subtraction");
+System.out.println("3.Multiplication");
+System.out.println("4.Division");
+System.out.println("Enter your choice:");
+Scanner kbd=new Scanner(System.in);
+Scanner kbi=new Scanner(System.in);
+int i=kbi.nextInt();
+System.out.println("Input x=");
+double x=kbd.nextDouble();
+System.out.println("Input y=");
+double y=kbd.nextDouble();
+
+switch (i)
+{
+case 1:
+
+System.out.println("x+y="+(x+y));
+break;
+
+case 2:
+
+System.out.println("x-y="+(x-y));
+break;
+
+case 3:
+
+System.out.println("x*y="+(x*y));
+break;
+
+case 4:
+
+System.out.println("x/y="+(x/y));
+break;
+
+default :
+
+System.out.println("choice = 1,2,3 or 4!");
+
+}
+
+}
+}
